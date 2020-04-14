@@ -133,11 +133,6 @@ Resources:
 
             # Create log directory
             mkdir -p /home/ec2-user/app/logs
-
-            # Run server
-            cd app
-            npm install
-            npm start
           EOF
 
           chown ec2-user:ec2-user /tmp/install_script.sh && chmod a+x /tmp/install_script.sh
