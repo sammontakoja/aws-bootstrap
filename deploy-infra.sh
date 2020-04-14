@@ -1,7 +1,7 @@
 #!/bin/bash
 
 STACK_NAME=awsbootstrap
-REGION=eu-west-1
+REGION=eu-north-1
 CLI_PROFILE=awsbootstrap
 
 # Using free service
